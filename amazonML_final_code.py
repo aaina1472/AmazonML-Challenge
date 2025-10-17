@@ -10,7 +10,7 @@ Original file is located at
 """
 
 import pandas as pd
-df = pd.read_csv("catalog_features_reduced_more.csv")
+df = pd.read_csv("catalog_features.csv")
 # Basic stats
 print(df['price'].describe())
 print("zeros or negatives:", (df['price']<=0).sum())
